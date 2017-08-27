@@ -1,0 +1,14 @@
+body {
+  padding: 100px;
+ 
+}
+
+/* We're setting our own focus outline here
+ because we want to be sure it is visible against
+ the background. */
+.output a:hover,
+.output a:focus,
+.js-search-results input:focus,
+.js-search-results button:focus {
+  outline: 5px dotted salmon;
+}
